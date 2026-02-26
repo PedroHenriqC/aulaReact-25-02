@@ -1,9 +1,9 @@
 import { StrictMode, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Exercicio1 from './components/Exercicio1'
 import Exercicio2 from './components/Exercicio2'
+import Exercicio3 from './components/Exercicio3'
+import Exercicio4 from './components/Exercicio4'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +12,8 @@ function App() {
     <StrictMode>
       <Exercicio1 />
       <Exercicio2 />
+      <Exercicio3 />
+      <Exercicio4 />
     </StrictMode>
   )
 }
