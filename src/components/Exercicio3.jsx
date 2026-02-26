@@ -6,7 +6,7 @@ function Exercicio3() {
     function mostarIsumo() {
         let animal = {
             nome : "Gatinho👍🐱👍 ",
-            foto : "https://placecats.com/500/500",
+            foto : "https://placecats.com/300/300",
             Estoque : "Disponibilidade",
         };
         // Usando getElementById para acessar os elementos HTML e atualizar o conteúdo com os dados do animal
